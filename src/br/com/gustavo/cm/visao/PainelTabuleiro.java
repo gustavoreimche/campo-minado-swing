@@ -17,7 +17,7 @@ public class PainelTabuleiro extends JPanel {
 				tabuleiro.getLinhas(), tabuleiro.getColunas()));
 		
 		tabuleiro.paraCadaCampo(c -> add(new BotaoCampo(c)));
-		tabuleiro.registrarObservador(e -> {
+		tabuleiro.registrarObservador(e -> { 
 			
 			SwingUtilities.invokeLater(() -> {
 				if(e.isGanhou()) {

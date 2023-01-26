@@ -13,8 +13,7 @@ import br.com.gustavo.cm.modelo.CampoEvento;
 import br.com.gustavo.cm.modelo.CampoObservador;
 
 @SuppressWarnings("serial")
-public class BotaoCampo extends JButton 
-	implements CampoObservador, MouseListener {
+public class BotaoCampo extends JButton implements CampoObservador, MouseListener {
 
 	private final Color BG_PADRAO = new Color(184, 184, 184);
 	private final Color BG_MARCAR = new Color(8, 179, 247);
